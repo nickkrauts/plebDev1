@@ -1,2 +1,2 @@
-These files represent my word from the PlebDev Udemy course: "Building a Lightning App"
+These files represent my work from the PlebDev Udemy course: "Building a Lightning App"
 
