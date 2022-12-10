@@ -17,16 +17,29 @@ h1 {
 button {
     background-color: gold;
     outline: purple;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: red
+}
+
+.row-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
+
 }
 
 .balance-card {
-    text-align: center;
-
-    padding: 10px;
+    text-align: center; 
     display: flex;
     flex-direction: column;
     outline: purple;
     background-color: gold;
     color: black;
-    margin: auto;
+    margin
+    : 15px;
+    
 }
+
