@@ -3,7 +3,12 @@ body {
     flex-direction: column;
     background-color: black;
     color: aliceblue;
+    justify-content: center;
 
+}
+
+header {
+    border-bottom: 2px solid yellow;
 }
 h1 {
     text-align: center;
@@ -16,8 +21,12 @@ h1 {
 
 button {
     background-color: gold;
-    outline: purple;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
     margin: 10px;
+    width: 100px;
 }
 
 button:hover{
@@ -35,11 +44,42 @@ button:hover{
     text-align: center; 
     display: flex;
     flex-direction: column;
-    outline: purple;
+
+    border: 2px solid purple;
     background-color: gold;
     color: black;
-    margin
-    : 15px;
+    padding: 1%;
+    width: 25%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 5px;
     
 }
 
+footer {
+    border-top: 2px solid yellow;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+footer p {
+    color: purple;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
