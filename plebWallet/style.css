@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+
+}
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;}
+
+button {
+    background-color: gold;
+    outline: purple;
+}
+
+.balance-card {
+    text-align: center;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    outline: purple;
+    background-color: gold;
+    color: black;
+    margin: auto;
+}
